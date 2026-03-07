@@ -1,9 +1,9 @@
-# Car Evaluation Classification — Decision Tree vs Random Forest (Custom + sklearn)
+# Car Evaluation Classification — Decision Tree vs Random Forest 
 This notebook trains and evaluates three tree-based models on the UCI Car Evaluation dataset:
 1.	Decision Tree (sklearn)
 2.	Random Forest (sklearn)
 3.	MyRandomForest (custom implementation) — built using:
-	-	bootstrapping (sampling with replacement)
+	- bootstrapping (sampling with replacement)
 	- multiple DecisionTreeClassifiers
 	- majority-vote aggregation
 
@@ -45,7 +45,7 @@ For each model, the notebook prints:
 
 
 ## Custom Model: MyRandomForest
-MyRandomForest class works like a simplified Random Forest:
+- MyRandomForest class works like a simplified Random Forest:
 	- Bootstrapping: for each tree, sample n rows with replacement
 	- Train a DecisionTreeClassifier on each bootstrap sample
 	- Prediction: collect predictions from all trees and return the majority vote
