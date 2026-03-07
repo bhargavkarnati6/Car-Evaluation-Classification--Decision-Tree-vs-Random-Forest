@@ -39,7 +39,7 @@ For each model, the notebook prints:
 	- Classification report (precision/recall/F1)
 	- Confusion matrix plot
 
-Finally, it prints a comparison table:
+5. Finally, it prints a comparison table:
 	- Model name
 	- Accuracy
 
